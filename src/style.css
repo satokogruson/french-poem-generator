@@ -40,7 +40,7 @@ form {
     font-size: 16px;
     line-height: 20px;
     border-radius: 30px;
-    color:azure;
+    color:rgb(65, 65, 75);
 }
 
 .instructions::after {
@@ -57,7 +57,7 @@ form {
     padding: 14px 24px;
 }
 
-.poem {
+#poem {
     font-size: 16px;
     background-color: #ffff;
     padding:20px;

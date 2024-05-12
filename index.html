@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap"
       rel="stylesheet"
     />
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>French Poem Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>AI French Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -29,13 +30,10 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          <br />
-          <p>
-            Nuit de juin ! Dix-sept ans ! – On se laisse griser. La sève est du
+        <div id="poem">
+            Nuit de juin ! Dix-sept ans ! On se laisse griser. La sève est du
             champagne et vous monte à la tête… On divague ; on se sent aux
             lèvres un baiser Qui palpite là, comme une petite bête….
-          </p>
         </div>
       </main>
       <footer>
