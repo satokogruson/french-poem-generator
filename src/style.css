@@ -67,8 +67,8 @@ form {
     border-radius: 5px;
 }
 
-.poem strong {
-        border-left: 3px solid #fc325e ;
+#poem strong {
+        color: #fc325e ;
 }
 
 footer{
